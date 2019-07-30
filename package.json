@@ -1,0 +1,32 @@
+{
+  "name": "voting-api",
+  "version": "1.0.0",
+  "description": "Simple api",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "docker",
+    "express"
+  ],
+  "author": "nicolasrestrepo",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "celebrate": "^10.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.7",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
